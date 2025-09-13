@@ -1,0 +1,4 @@
+Ten, BT1, BT2, BT3
+SonTVA, 8, 6, 7, 9
+SonTVB, 8, 6, 4, 6
+SonTVC, 8, 6, 3, 7
