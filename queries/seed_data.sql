@@ -1,0 +1,40 @@
+INSERT INTO customers (full_name, email, phone, created_at)
+VALUES
+('Nguyen Van A', 'nguyenvana@example.com', '0901111111', '2025-01-01 10:00:00'),
+('Tran Thi B', 'tranthib@example.com', '0902222222', '2025-01-02 11:00:00'),
+('Le Van C', 'levanc@example.com', '0903333333', '2025-01-03 12:00:00'),
+('Pham Thi D', 'phamthid@example.com', '0904444444', '2025-01-04 13:00:00'),
+('Hoang Van E', 'hoangvane@example.com', '0905555555', '2025-01-05 14:00:00'),
+('Do Thi F', 'dothif@example.com', '0906666666', '2025-01-06 15:00:00'),
+('Bui Van G', 'buivang@example.com', '0907777777', '2025-01-07 16:00:00'),
+('Dang Thi H', 'dangthih@example.com', '0908888888', '2025-01-08 17:00:00'),
+('Ngo Van I', 'ngovani@example.com', '0909999999', '2025-01-09 18:00:00'),
+('Vo Thi J', 'vothij@example.com', '0910000000', '2025-01-10 19:00:00'),
+('Nguyen Van K', 'nguyenvank@example.com', '0911111111', '2025-01-11 20:00:00'),
+('Tran Thi L', 'tranthil@example.com', '0912222222', '2025-01-12 21:00:00'),
+('Le Van M', 'levanm@example.com', '0913333333', '2025-01-13 22:00:00'),
+('Pham Thi N', 'phamthin@example.com', '0914444444', '2025-01-14 09:00:00'),
+('Hoang Van O', 'hoangvano@example.com', '0915555555', '2025-01-15 10:00:00'),
+('Do Thi P', 'dothip@example.com', '0916666666', '2025-01-16 11:00:00'),
+('Bui Van Q', 'buivanq@example.com', '0917777777', '2025-01-17 12:00:00'),
+('Dang Thi R', 'dangthir@example.com', '0918888888', '2025-01-18 13:00:00'),
+('Ngo Van S', 'ngovans@example.com', '0919999999', '2025-01-19 14:00:00'),
+('Vo Thi T', 'vothit@example.com', '0920000000', '2025-01-20 15:00:00');
+
+INSERT INTO orders (customer_id, order_total, status, created_at)
+VALUES
+(1, 1200.50, 'paid', '2025-02-01 10:15:00'),
+(1, 300.00, 'pending', '2025-02-03 09:20:00'),
+(2, 450.00, 'paid', '2025-02-05 14:30:00'),
+(3, 200.00, 'pending', '2025-02-07 11:00:00'),
+(3, 500.00, 'shipped', '2025-02-08 16:45:00'),
+(3, 750.00, 'paid', '2025-02-09 19:00:00'),
+(5, 999.99, 'cancelled', '2025-02-11 08:10:00'),
+(7, 1500.00, 'paid', '2025-02-12 20:00:00'),
+(7, 350.00, 'pending', '2025-02-13 09:40:00'),
+(10, 220.00, 'paid', '2025-02-14 13:30:00'),
+(12, 410.55, 'pending', '2025-02-15 17:25:00'),
+(15, 1120.00, 'paid', '2025-02-16 10:00:00'),
+(15, 760.45, 'shipped', '2025-02-17 18:20:00'),
+(18, 540.00, 'pending', '2025-02-18 15:15:00'),
+(20, 1280.00, 'paid', '2025-02-19 21:10:00');
