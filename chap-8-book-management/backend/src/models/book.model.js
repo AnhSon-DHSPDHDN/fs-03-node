@@ -9,6 +9,7 @@ Book.init(
       type: DataTypes.STRING,
       primaryKey: true,
       field: "book_id",
+      defaultValue: DataTypes.UUIDV4,
     },
     bookName: {
       type: DataTypes.STRING,
