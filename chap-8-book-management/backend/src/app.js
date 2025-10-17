@@ -2,6 +2,7 @@ import express from "express";
 import bodyParser from "body-parser";
 import booksRouter from "./routes/books.route.js";
 import cors from "cors";
+import authRouter from "./routes/auth.route.js";
 
 const app = express();
 
@@ -14,5 +15,6 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.use("/books", booksRouter);
+app.use("/auth", authRouter);
 
 export default app;
